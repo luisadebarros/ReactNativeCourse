@@ -1,0 +1,14 @@
+arquivos: FragmentTitle
+
+-> se eu quero retornar mais de um elemento ao mesmo tempo, exemplo:
+
+    <Text style = {estilo.big}>{props.principal}</Text>
+    <Text style = {estilo.medium}>{props.second}</Text>
+
+-> eu tenho que retornar unma View ou algum fragmento do react
+
+
+-> eu consigo colocar uma propiedade dentro das "Views",
+usando o React.Fragment propieda = "", porém a de <> não aceita
+esses termos.
+

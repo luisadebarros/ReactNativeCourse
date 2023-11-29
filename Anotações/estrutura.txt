@@ -1,0 +1,6 @@
+--> ReactNative é como uma blibioteca do React que é uma aplicação componetizada,
+onde pode ter um título, menu, tabelas enfiim várias coisas.
+
+--> o Arquivo padrão é o index.js
+
+--> importa o arquivo, e registra o componente

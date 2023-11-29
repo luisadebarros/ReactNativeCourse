@@ -1,0 +1,7 @@
+O que é um jsx?
+É um html em javascript, que integra o javascript do React p/,
+cada plataforma
+o jsx é como interfaces gráficas em forma de tags
+
+Cada arquivo (eventualmente) representa um componente
+Classe em JavaScript também é função

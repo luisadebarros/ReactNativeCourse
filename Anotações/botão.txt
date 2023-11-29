@@ -1,0 +1,6 @@
+arquivos: Button
+
+quando executamos uma função, a função no momento
+que rodarmos o projeto ele já é executado, porém com
+o OnPress ela se torna uma referência de um Buttton, e
+só roda quando ele for pressionado

@@ -1,0 +1,18 @@
+arquivos: challengerandom
+
+-> quando passamos as props inteira, ela se torna um objeto inteiro que não é possivél a troca
+-> props é um readonly
+const {min, max} = props
+  props.min += 1000
+  props.max += 2000
+
+  - min e max serão iguais ao que inseriram
+
+-> porem se passarmos como let {min, max}, é possivél fazer essa troca pelo argumento "let"
+-> é melhor criar novas propiedades para alterar esses valores
+let {min, max} = props
+  props.min += 1000
+  props.max += 2000
+
+
+
