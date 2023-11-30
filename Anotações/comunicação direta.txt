@@ -1,0 +1,8 @@
+arquivos: DirectComunication, Dad, Son
+
+-> A comunicação direta usa as props que você passa de um
+pai para o filho
+-> O componente pai tem acesso direto do filho, ele importa e 
+instância o Filho, passando seus elementos para esse filho
+-> Uma arvóre de componentes, onde o de cima, passa para o debaixo, e assim
+vai...

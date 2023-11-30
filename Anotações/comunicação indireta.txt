@@ -1,0 +1,17 @@
+arquivos: InderectComunication, Dad, Son
+
+-> quando nós queremos que o componente filho retorne algum valor para
+o pai, passamos uma função onde ele possa retornar esse valor
+como parametro
+
+        <Son
+            min = {5}
+            max ={50}
+            function = {showValue}
+        />
+
+
+em function, passamos uma referência dessa função, que aponta para uma função
+que pertence ao componente pai
+
+é um conceito de callback

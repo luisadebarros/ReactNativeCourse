@@ -9,8 +9,12 @@ import { View, StyleSheet } from "react-native";
 // import Number from './components/NumberComponent'
 // import ChallengeRandom from "./components/ChallengeRandom";
 // import FragmentTitle from "./components/FragmentTitle";
-import Button from "./components/Button";
-
+// import Button from "./components/Button";
+// import Count from "./components/Count";
+// import TesterSnipet from "./components/TesterSnipet";
+// import Dad from "./components/DirectComunication/Dad";
+// import Dad from "./components/IndirectComunication/Dad";
+import CounterTotal from "./components/Counter/CounterTotal";
 
 export default () => (
 <View style={style.App}>
@@ -23,7 +27,12 @@ export default () => (
     {/* <Oficial /> */}
     {/* {<ChallengeRandom min={10} max={20}></ChallengeRandom>} */}
     {/* <FragmentTitle principal = "Register product" second = "Other"/> */}
-    <Button titleOne="a title, maybe 1?" titleTwo="idk"/> 
+    {/* <Button titleOne="a title, maybe 1?" titleTwo="idk"/>  */}
+    {/* <Count numberInitial = {5} increaset={2} /> */}
+    {/* <Count numberInitial = {97} /> */}
+    {/* <TesterSnipet /> */}
+    {/* <Dad /> */}
+    <CounterTotal  />
 </View>
 )
 

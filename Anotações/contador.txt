@@ -1,0 +1,24 @@
+arquivos: Count
+
+-> o flexbox de padrão segue o eixo da coluna
+-> o UseState muda a propiedades na interface gráfica, ele é um Hook (gancho)
+que traz uma funcionalidade para o framework dectete uma mudança em uma variavél
+
+
+-> useState é uma função que leva um valor inicial, ou seja, a propiedade,
+e ela retorna um array, que é o valor (incial) e uma function que é responsável
+por alterar essa variavél.
+- então exemplo, tenho um número, e uma função add1, que adiciona 1:
+function useState(number){
+    return [number, add1()]
+}
+
+add1(number){
+    return number++
+}
+
+logo 
+const[valorFinal, setValor] = useState(valorInicial)
+
+-> isso é como obter um estado em um componente funcional,
+classe é diferente
