@@ -1,0 +1,17 @@
+arquivos: OddOrEven, IfCondition, UserLogOnd
+
+renderização condicional #1
+{number % 2 === 0
+                ? <Text style = {estilo.medium}>Odd</Text>
+                : <Text style = {estilo.medium}>Even</Text>
+            }
+
+nesse caso, quando temos muita repetição no código, 
+podemos colocar a lógica dentro da estrutura do componenete
+
+renderização condicional #1
+
+user = {} -> não devemos esquecer que em deixar default 
+em props que podem vim sozinhas
+
+{{name: "Luísa", mail: "luisa@gmail.com"}} -> passando um objeto para o componente

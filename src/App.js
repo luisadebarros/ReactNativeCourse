@@ -1,6 +1,6 @@
 
 import React from "react"
-import { View, StyleSheet } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
 
 
 
@@ -14,10 +14,14 @@ import { View, StyleSheet } from "react-native";
 // import TesterSnipet from "./components/TesterSnipet";
 // import Dad from "./components/DirectComunication/Dad";
 // import Dad from "./components/IndirectComunication/Dad";
-import CounterTotal from "./components/Counter/CounterTotal";
+// import CounterTotal from "./components/Counter/CounterTotal";
+// import OddOrEven from "./components/OddOrEven";
+// import Family from "./components/Relation/Family";
+// import Members from "./components/Relation/Members";
+import UserLogOn from "./components/UserLogOn";
 
 export default () => (
-<View style={style.App}>
+<SafeAreaView style={style.App}>
     {/* <ComponentTwo /> */}
     {/* <First /> */}
     {/* <Number min ={5} max={97}/> */}
@@ -32,8 +36,22 @@ export default () => (
     {/* <Count numberInitial = {97} /> */}
     {/* <TesterSnipet /> */}
     {/* <Dad /> */}
-    <CounterTotal  />
-</View>
+    {/* <CounterTotal  /> */}
+    {/* <OddOrEven number = {-6}/> */}
+    {/* <Family>
+            <Members name = "Philiphe" surname = "Trues"/>
+            <Members name = "John" surname = "Meyres"/>
+    </Family>
+    <Family>
+            <Members name = "Louise" surname = "Kingdom"/>
+            <Members name = "Maya" surname = "Thriller"/>
+            <Members name = "Julie" surname = "Roberts"/>
+    </Family> */}
+    <UserLogOn user = {{name: "Luísa", mail: "luisa@gmail.com"}}/>
+    <UserLogOn user = {{name: "John"}}/>
+    <UserLogOn user = {{mail: "Star"}}/>
+
+</SafeAreaView>
 )
 
 const style = StyleSheet.create({
