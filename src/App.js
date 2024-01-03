@@ -18,7 +18,10 @@ import { SafeAreaView, StyleSheet } from "react-native";
 // import OddOrEven from "./components/OddOrEven";
 // import Family from "./components/Relation/Family";
 // import Members from "./components/Relation/Members";
-import UserLogOn from "./components/UserLogOn";
+// import UserLogOn from "./components/UserLogOn";
+// import ProductList from "./components/Products/ProductList";
+// import SecondProductList from "./components/Products/SecondProductList";
+import TypeYourName from "./components/TypeYourName";
 
 export default () => (
 <SafeAreaView style={style.App}>
@@ -47,9 +50,12 @@ export default () => (
             <Members name = "Maya" surname = "Thriller"/>
             <Members name = "Julie" surname = "Roberts"/>
     </Family> */}
-    <UserLogOn user = {{name: "Luísa", mail: "luisa@gmail.com"}}/>
+    {/* <UserLogOn user = {{name: "Luísa", mail: "luisa@gmail.com"}}/>
     <UserLogOn user = {{name: "John"}}/>
-    <UserLogOn user = {{mail: "Star"}}/>
+    <UserLogOn user = {{mail: "Star"}}/> */}
+    {/* <ProductList /> */}
+    {/* <SecondProductList /> */}
+    <TypeYourName />
 
 </SafeAreaView>
 )

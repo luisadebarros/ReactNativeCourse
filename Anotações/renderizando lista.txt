@@ -1,0 +1,20 @@
+arquivos: Products, products, ProductList, SecondProductList
+
+#01
+o .map() -> transforma os elemento de um array com elementos modificados
+então u array -> para um jxs
+key -> é o valor unico que indentifica o objeto
+
+#02
+
+<FlatList 
+                data = {products}
+                keyExtractor = {p => `${p.id}`}
+                renderItem = {({item: product}) => {
+                    return <Text>{product.id}) {product.name}</Text>
+                }}
+            />
+O FlatList é uma forma de renderizar uma lista, onde o data é a lista,
+o key keyExtractor é o id (a `` com o valor dentro é pq ele não aceita muito
+bem o inteiro, então "forçamos" ele a ser string) e o renderItem que recebe o 
+item como parametro ({item: product}) e retorna como queremos esse response

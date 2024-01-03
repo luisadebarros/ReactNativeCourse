@@ -1,0 +1,15 @@
+arquivos: TypeYourName
+
+a partir da inteface gráfica não conseguimos mudar o text
+a gente altera o estado do componente e a interface muda
+
+estado -> value -> interface gráfica
+
+o onChangeText = muda o estado de acordo com a função que definimos
+
+gera um evento dentro de um input, que dispara uma função, que muda
+o estado do componenete, e uma vez alterado ele impacta na inteface gráfica 
+
+onChangeText é um evento e o useState é o modificador de estado
+
+

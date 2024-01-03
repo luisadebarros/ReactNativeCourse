@@ -1,2 +1,2 @@
-quando eu criou uma constante no javascript, tenho que
+quando eu crio uma constante no javascript, tenho que
 coloca-la em chaves
