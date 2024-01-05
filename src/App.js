@@ -21,7 +21,12 @@ import { SafeAreaView, StyleSheet } from "react-native";
 // import UserLogOn from "./components/UserLogOn";
 // import ProductList from "./components/Products/ProductList";
 // import SecondProductList from "./components/Products/SecondProductList";
-import TypeYourName from "./components/TypeYourName";
+// import TypeYourName from "./components/TypeYourName";
+// import Square from "./components/Layout/Square";
+// import FirstFlexBox from "./components/Layout/FirstFlexBox";
+// import SecondFlexBox from "./components/Layout/SecondFlexBox";
+// import ThirdFlexBox from "./components/Layout/thirdFlexBox";
+import FourthFlexBox from "./components/Layout/FourthFlexBox";
 
 export default () => (
 <SafeAreaView style={style.App}>
@@ -55,8 +60,11 @@ export default () => (
     <UserLogOn user = {{mail: "Star"}}/> */}
     {/* <ProductList /> */}
     {/* <SecondProductList /> */}
-    <TypeYourName />
-
+    {/* <TypeYourName /> */}
+    {/* <FirstFlexBox /> */}
+    {/* <SecondFlexBox /> */}
+    {/* <ThirdFlexBox /> */}
+    <FourthFlexBox />
 </SafeAreaView>
 )
 

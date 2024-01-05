@@ -1,0 +1,24 @@
+arquivos: Layout, FisrtFlexBox, Square, SecondFlexBox, ThirdFlexBox, FourthFlexBox
+a visão dos elementos que o css tem é de caixas que podem ser colocadas coisas dentro
+
+um display flex passa a existir um flex container
+e dentro de um container, que armazena itens, e cada item é um felx item
+o flex é unidimensiona (horizontal ou vertical) e quando escolhemos um eixo, ele vira o main axis,
+e outro vira o cross axis
+todos os 2 eixos tem um start, um end e um size
+
+#01:
+    dentro do FlexBox, a view é um container, e
+    os square são os itens, se os itens tem o mesmo
+    tamanho que os elementos dela, e por isso não aparece
+    o background nela, agora se adicionamos o 'flex: 1', ele cresce
+    de tamanho e ocupar 1 espaço
+    justifyContent - onde começa os elementos
+
+#02:
+    o eixo principal é a coluna, mas dá pra mexer com os 
+    dois ao mesmo tempo
+
+#04: quando temos vários 'flexs', ele é proporcional, ou seja
+o que indicamos no flexGrow é um valor que usa a área disponivél de
+acordo com o valor fornecido, proporcionalmente
