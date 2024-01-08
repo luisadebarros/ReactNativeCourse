@@ -26,7 +26,8 @@ import { SafeAreaView, StyleSheet } from "react-native";
 // import FirstFlexBox from "./components/Layout/FirstFlexBox";
 // import SecondFlexBox from "./components/Layout/SecondFlexBox";
 // import ThirdFlexBox from "./components/Layout/thirdFlexBox";
-import FourthFlexBox from "./components/Layout/FourthFlexBox";
+// import FourthFlexBox from "./components/Layout/FourthFlexBox";
+import Lucky from "./components/Lucky/Lucky";
 
 export default () => (
 <SafeAreaView style={style.App}>
@@ -64,7 +65,8 @@ export default () => (
     {/* <FirstFlexBox /> */}
     {/* <SecondFlexBox /> */}
     {/* <ThirdFlexBox /> */}
-    <FourthFlexBox />
+    {/* <FourthFlexBox /> */}
+    <Lucky numbers = {12}/>
 </SafeAreaView>
 )
 
