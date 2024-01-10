@@ -5,40 +5,43 @@ import { createStackNavigator } from '@react-navigation/stack'
 import UserList from './components/RegisterProject/View/UserList'
 import UserForm from './components/RegisterProject/View/UserForm'
 import { Icon, Button } from 'react-native-elements'
+import { UsersProvider } from './components/RegisterProject/Context/UsersContext'
 
 const Stack = createStackNavigator()
 
 export default () => {
     return (
-       <NavigationContainer>
-            <Stack.Navigator
-            initialRouteName='UserList'
-            screenOptions = {screenOptions}>
-                <Stack.Screen 
-                    name = 'UserList'
-                    component = {UserList}
-                    options = {({ navigation }) => {
-                        return {
-                            title: "Users' List",
-                            headerRight: () => (
-                                <Button
-                                    onPress = {() => navigation.navigate('UserForm')} 
-                                    type = "clear"
-                                    icon = {<Icon name="add" size={25} color="white"/>}
-                                />
-                            )
-                        }
-                    }}
-                />
-                <Stack.Screen 
-                    name = 'UserForm'
-                    component = {UserForm}
-                    options = {{
-                        title: "Users' Form"
-                    }}
-                />
-            </Stack.Navigator>
-       </NavigationContainer>
+        <UsersProvider>
+            <NavigationContainer>
+                 <Stack.Navigator
+                 initialRouteName='UserList'
+                 screenOptions = {screenOptions}>
+                     <Stack.Screen 
+                         name = 'UserList'
+                         component = {UserList}
+                         options = {({ navigation }) => {
+                             return {
+                                 title: "Users' List",
+                                 headerRight: () => (
+                                     <Button
+                                         onPress = {() => navigation.navigate('UserForm')} 
+                                         type = "clear"
+                                         icon = {<Icon name="add" size={25} color="white"/>}
+                                     />
+                                 )
+                             }
+                         }}
+                     />
+                     <Stack.Screen 
+                         name = 'UserForm'
+                         component = {UserForm}
+                         options = {{
+                             title: "Users' Form"
+                         }}
+                     />
+                 </Stack.Navigator>
+            </NavigationContainer>
+        </UsersProvider>
     )
 }
 
