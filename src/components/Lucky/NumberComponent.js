@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text, Button, View, StyleSheet } from 'react-native'
-import estilo from '../estilo'
+import estilo from '../Exercise/estilo'
 
 export default ({ num }) => {
     return (
